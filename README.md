@@ -1,7 +1,7 @@
 ## arp-scan
 Network ARP Scanner
 
-# pip3 install -r requirements.txt
+ pip3 install -r requirements.txt
 
 ## Usage
 # Example:
