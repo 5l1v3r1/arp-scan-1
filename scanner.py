@@ -26,7 +26,7 @@ def print_result(results_list):
 
     print('IP\t\t\tMAC Address\n-------------------------------------------')
     for i in results_list:
-        print(results_list[0]['ip'] + "\t\t" + results_list[1]['mac'])
+        print(i['ip'] + "\t\t" + i['mac'])
 
     #scapy.ls(scapy.ARP())
 
