@@ -28,7 +28,7 @@ def print_result(results_list):
     for i in results_list:
         print(results_list[0]['ip'] + "\t\t" + results_list[1]['mac'])
 
-    scapy.ls(scapy.ARP())
+    #scapy.ls(scapy.ARP())
 
 options = get_arguments()
 scan_result = scan(options.target)
